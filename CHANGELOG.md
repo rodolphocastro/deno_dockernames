@@ -26,5 +26,5 @@
 
 <!-- Links -->
 [Under Development]:https://github.com/rodolphocastro/deno_dockernames/tree/
-[v1.1.0]:https://github.com/rodolphocastro/deno_dockernames/releaes/tag/v1.1.0
-[v1.0.0]:https://github.com/rodolphocastro/deno_dockernames/releaes/tag/v1.0.0
+[v1.1.0]:https://github.com/rodolphocastro/deno_dockernames/releases/tag/v1.1.0
+[v1.0.0]:https://github.com/rodolphocastro/deno_dockernames/releases/tag/v1.0.0
