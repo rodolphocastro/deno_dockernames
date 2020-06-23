@@ -49,3 +49,18 @@ This snippet will allow you to use `deno repl` to play with name generation:
 ## 👨‍💻 Command Line
 
 You can use this module as a Command Line tool by running `deno install -n docker-names .\cli.ts`, which will create a new alias `docker-names` within your terminal.
+
+The CLI accepts commands in the following order:
+
+1. `h -h --help | g -g --generate`: The command itself: **H**elp or **G**enerate, defaults to `g`
+2. `retry | separator`: A string or a number. If a number is informed it'll be used as `retry`, else as a `separator`
+3. `separator`: If a `retry` is set this can be used to pick a `string` as separator
+
+The following are all valid inputs for the CLI:
+
+```repl
+deno run .\cli.ts ... results in something_somegion
+deno run .\cli.ts g "@" ... results in something@someone
+deno run .\cli.ts g 10 ... results in something_someone10
+deno run .\cli.ts g 20 "@" ... results in something@someone20
+```

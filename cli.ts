@@ -3,7 +3,7 @@ import { generateName, generateNameCustom } from "./mod.ts";
 const genCommands = ["g", "-g", "--generate"];
 const helpMessage = `
   Supported commands are: [${genCommands.join(", ")}]
-  The syntax for generating is {separator?} {retry?} 
+  The syntax for generating is {separator? or retry?} {separator?} 
   [? means optional parameter]
   ------
   The following are valid examples:
