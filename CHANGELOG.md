@@ -1,6 +1,6 @@
 # Docker Names changelog
 
-## [Under Development]
+## 🚧 [Under Development]
 
 ### [Under Development] - Additions
 
@@ -10,5 +10,13 @@
 
 ### [Under Development] - Deprecations
 
+## 🆕 [v1.0.0]
+
+### [v1.0.0] - Additions
+
++ Added data for Adjectives and Personalites
++ Added name generation functions
+
 <!-- Links -->
-<!-- TODO: Add links -->
+[Under Development]:https://github.com/rodolphocastro/DenoDockerNames/tree/
+[v1.0.0]:https://github.com/rodolphocastro/DenoDockerNames/releaes/tag/v1.0.0
