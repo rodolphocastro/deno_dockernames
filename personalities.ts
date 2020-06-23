@@ -3,7 +3,7 @@ import { pickRandomElement } from "./rand.ts";
 /**
  * Personalities available for name generation.
  */
-const personalities: Array<string> = [
+export const personalities: Array<string> = [
   // Muhammad ibn Jābir al-Ḥarrānī al-Battānī was a founding father of astronomy. https://en.wikipedia.org/wiki/Mu%E1%B8%A5ammad_ibn_J%C4%81bir_al-%E1%B8%A4arr%C4%81n%C4%AB_al-Batt%C4%81n%C4%AB
   "albattani",
 
@@ -721,8 +721,6 @@ const personalities: Array<string> = [
 /**
  * Picks a random Personality.
  */
-function pickPersonality(): string {
+export function pickPersonality(): string {
   return pickRandomElement(personalities);
 }
-
-export { personalities, pickPersonality };

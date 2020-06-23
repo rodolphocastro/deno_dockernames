@@ -3,7 +3,7 @@ import { pickRandomElement } from "./rand.ts";
 /**
  * Adjectives available for name generation.
  */
-const adjectives: Array<string> = [
+export const adjectives: Array<string> = [
   // https://dictionary.cambridge.org/dictionary/english/admiring
   "admiring",
 
@@ -332,8 +332,6 @@ const adjectives: Array<string> = [
 /**
  * Picks a random adjective.
  */
-function pickAdjective(): string {
+export function pickAdjective(): string {
   return pickRandomElement(adjectives);
 }
-
-export { pickAdjective, adjectives };

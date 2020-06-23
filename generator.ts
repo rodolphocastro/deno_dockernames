@@ -31,7 +31,7 @@ function applyRetry(name: string, retry: number): string {
  * Generates a random name using an adjective and a personality
  * @param retry Number to be appended to the name, if greater than 0
  */
-function generateName(retry: number = 0): string {
+export function generateName(retry: number = 0): string {
   const name = joinStrings(pickAdjective(), pickPersonality());
 
   // No easter eggs to see here ;)
@@ -44,12 +44,13 @@ function generateName(retry: number = 0): string {
  * @param separator separator between left and right names
  * @param retry number to be appended to the name, if greater than 0
  */
-function generateNameCustom(separator: string, retry: number = 0): string {
+export function generateNameCustom(
+  separator: string,
+  retry: number = 0,
+): string {
   const name = joinStrings(pickAdjective(), pickPersonality(), separator);
 
   // 404 easter egg not found
 
   return applyRetry(name, retry);
 }
-
-export { generateName, generateNameCustom };
