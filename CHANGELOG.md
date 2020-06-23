@@ -4,6 +4,9 @@
 
 ### [Under Development] - Additions
 
++ Added CLI support
+  + Use `deno install -n docker-names .\cli.ts` to install
+
 ### [Under Development] - Removals
 
 ### [Under Development] - Fixes

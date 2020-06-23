@@ -45,3 +45,7 @@ This snippet will allow you to use `deno repl` to play with name generation:
 > names.generateNameCustom('***', 99)
 // objective***jennings99
 ```
+
+## 👨‍💻 Command Line
+
+You can use this library as a Command Line tool by running `deno install -n docker-names .\cli.ts`, which will create a new alias `docker-names` within your terminal.
