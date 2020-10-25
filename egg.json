@@ -1,0 +1,10 @@
+{
+                                "name": "docker_names",
+                                "description": "Moby's name generation now in Deno!",
+                                "homepage": "https://github.com/rodolphocastro/deno_dockernames",
+                                "files": [
+                                  "./**/*.ts",
+                                  "README.md"
+                                ],
+                                "entry": "./mod.ts"
+                              }
